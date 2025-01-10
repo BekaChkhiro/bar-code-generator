@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 600px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.input-container {
+  margin-bottom: 2rem;
+}
+
+.number-input {
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 300px;
+  transition: border-color 0.3s ease;
+}
+
+.number-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.barcode-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.barcode-container svg {
+  max-width: 100%;
+  height: auto;
+}
