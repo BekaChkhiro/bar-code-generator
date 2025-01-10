@@ -11,17 +11,17 @@
     "react-scripts": "5.0.1",
     "react-barcode": "^1.4.6",
     "html-to-image": "^1.11.11",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1",
     "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.33",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "postcss": "^8.4.33"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false && chmod +x node_modules/.bin/react-scripts && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
